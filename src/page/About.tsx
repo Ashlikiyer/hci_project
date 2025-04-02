@@ -1,8 +1,9 @@
-import { Link } from "react-router-dom";
+
 import BlurText from "../../Reactbits/BlurText/BlurText";
 import { useEffect, useState } from "react";
 import { FaPaintBrush, FaCode, FaInstagram, FaPenNib, FaLaptopCode, FaChartLine, FaPalette, FaDatabase } from "react-icons/fa";
 import Particles from "../../Reactbits/Particles/Particles";
+import Navbar from "../Components/Navbar";
 
 
 const handleAnimationComplete = () => {
@@ -148,18 +149,7 @@ const About = () => {
       {/* Content Container */}
       <div className="relative z-10"> {/* Higher z-index to stay above particles */}
         {/* Navbar */}
-        <nav className="bg-transparent p-4">
-          <div className="max-w-screen-xl flex justify-end  mx-auto">
-            <ul className="flex space-x-6">
-              <li>
-                <Link to="/" className="text-white hover:text-blue-500">Home</Link>
-              </li>
-              <li>
-                <Link to="/about" className="text-white hover:text-blue-500">About</Link>
-              </li>
-            </ul>
-          </div>
-        </nav>
+     <Navbar/>
 
         {/* Meet the Team Section */}
         <div className="flex flex-col items-center justify-center min-h-screen text-center">

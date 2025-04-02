@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
 import Squares from "../../Reactbits/Squares/Squares";
 import BlurText from "../../Reactbits/BlurText/BlurText";
+import Navbar from "../Components/Navbar";
 
 const handleAnimationComplete = () => {
   console.log("Animation completed!");
@@ -9,6 +9,9 @@ const handleAnimationComplete = () => {
 const Homepage = () => {
   return (
     <div className="relative min-h-screen bg-black">
+      {/* Navbar */}
+      <Navbar  /> {/* Increase z-index to ensure it's above everything */}
+
       {/* Squares Background */}
       <div className="absolute inset-0 z-0">
         <Squares
@@ -20,33 +23,18 @@ const Homepage = () => {
         />
       </div>
 
-      {/* Navbar */}
-      <nav className="relative z-10 bg-transparent p-4">
-        <div className="max-w-screen-xl flex justify-end  mx-auto">
-          
-          <ul className="flex space-x-6">
-            <li>
-              <Link to="/" className="text-white hover:text-blue-500">Home</Link>
-            </li>
-            <li>
-              <Link to="/about" className="text-white hover:text-blue-500">About</Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
       {/* Main Content */}
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen text-center">
         <BlurText
-          text="Team kupal"
+          text="Helix"
           delay={150}
           animateBy="words"
           direction="top"
           onAnimationComplete={handleAnimationComplete}
-          className="text-8xl text-white -mt-20"
+          className="text-8xl text-white"
         />
-        <p className="mt-6 text-xl text-white max-w-2xl">
-          We are a passionate group of innovators building the future, one project at a time.
+        <p className="mt-6 text-xl font-mono text-white max-w-4xl">
+          Helix Galaxy: A digital journey of growth and innovation. The helix symbolizes evolution, while the galaxy represents limitless possibilities. Our team is building a dynamic portfolio website that showcases creativity, skills, and projects, reflecting our expanding potential and future in the digital world.
         </p>
       </div>
     </div>
