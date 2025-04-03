@@ -59,11 +59,10 @@ const About = () => {
       ],
     },
     {
-      name: "Sophia Chen",
+      name: "Hans Vincent Mathew, Osuna Escoto",
       titleColor: "text-blue-400",
       bgGradient: "bg-gradient-to-br from-gray-900 to-blue-900/20",
-      description1: "Passionate UI/UX designer with a keen eye for detail. Experienced in creating user-friendly interfaces that enhance user experience.",
-      description2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description1: "Stuff about me: I have a deep appreciation for dinosaurs, cryptids, and monsters mostly because of their lore and designs, I also have a love for coffee (which I very much enjoy often), a sweet spot for caramel, and a passion for indie and horror related media whether it be stories or video game",
       skills: [
         { icon: <FaPenNib size={40} />, title: "UI Design", description: "Crafting intuitive interfaces." },
         { icon: <FaPaintBrush size={40} />, title: "UX Research", description: "Understanding user needs." },
@@ -71,11 +70,11 @@ const About = () => {
       ],
     },
     {
-      name: "Marcus Reynolds",
+      name: "Angelo F. Gopez",
       titleColor: "text-purple-400",
       bgGradient: "bg-gradient-to-br from-gray-900 to-purple-900/20",
-      description1: "Full-stack developer specializing in modern web technologies. Loves solving complex problems with clean, efficient code.",
-      description2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description1: "I am type of person whose into all sorts of stuff as such my passion for Digital Art, And has a love for specific games that really sparks me that keeps my dopamine pumpin! Such as specific VN, Interactive story and gacha games such as wuthering waves as my comfort game, and oh! Other games like Elsword, etc.",
+      description2: "I like watching animes that really fascinates me such as frieren, spy family, 7DS, etc. I have a liking on food that savory stuff and oh! Sweets! Maybe a touch of spice! I am also chronically online as well as an ambivert with social prob but have to get use to it. Not the best at communicating to people due to have social issues sometimes but do please bare with me!",
       skills: [
         { icon: <FaCode size={40} />, title: "Frontend Dev", description: "Building sleek UIs." },
         { icon: <FaLaptopCode size={40} />, title: "Backend Dev", description: "Managing server logic." },
@@ -83,11 +82,10 @@ const About = () => {
       ],
     },
     {
-      name: "Elena Martinez",
+      name: "Van Kerschanbel P. Angay",
       titleColor: "text-green-400",
       bgGradient: "bg-gradient-to-br from-gray-900 to-green-900/20",
-      description1: "Digital marketing expert with a focus on SEO and content strategy. Helps brands grow their online presence effectively.",
-      description2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description1: "Hi, I'm Vk, and I'm passionate about drawing anime characters in my free time. I also reads Manga, Manhua, Manhwa.",
       skills: [
         { icon: <FaInstagram size={40} />, title: "SEO", description: "Boosting search rankings." },
         { icon: <FaChartLine size={40} />, title: "Analytics", description: "Tracking performance." },
