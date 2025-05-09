@@ -4,7 +4,7 @@ import Navbar from "../Components/Navbar";
 import ScrollVelocity from "../../Reactbits/ScrollVelocity/ScrollVelocity";
 import "../../Reactbits/ScrollVelocity/ScrollVelocity.css";
 
-// Team members data (unchanged)
+// Team members data (unc\ged)
 const teamMembers = [
   {
     name: "Adriane Bordamonte",
@@ -41,35 +41,36 @@ const teamMembers = [
     ],
   },
   {
-    name: "Michael Chen",
+    name: "Hans Vincent Mathew",
     role: "Frontend Engineer & UI Specialist",
     projects: [
       {
-        title: "Interactive Dashboard",
+        title: "EMC Introduction Project",
         description:
-          "Real-time data visualization dashboard with customizable widgets.",
+          "This Artwork was used in my Intro to EMC class for a quick introduction about me.",
         imageUrl: "/images/dashboard.jpg",
-        tags: ["React", "D3.js", "TypeScript"],
+        tags: ["Firealpaca"],
       },
       {
-        title: "Design System",
+        title: "Roleplay",
         description:
-          "Comprehensive UI component library for enterprise applications.",
+          "This is a character sheet for another activity in Intro to EMC where our teacher assigned us to do a roleplay, the sheet is mostly just proof of concept on how the character is supposed to look like.",
         imageUrl: "/images/design-system.jpg",
-        tags: ["Storybook", "Styled Components", "Figma"],
+        tags: ["Firealpaca"],
       },
       {
-        title: "Animation Library",
-        description: "Collection of reusable animations for web applications.",
+        title: "Five nights at Freddy’s",
+        description: "This artwork is from one of those days where I randomly sketch, this is very inspired by the horror game “Five nights at Freddy’s”.",
         imageUrl: "/images/animation.jpg",
-        tags: ["Framer Motion", "GSAP", "CSS"],
+        tags: ["Firealpaca"],
       },
       {
-        title: "Accessibility Toolkit",
-        description: "Tools and components to improve web accessibility.",
+        title: "Dinosaurs",
+        description: "TAnother random sketch day, I sketched this out because I just like drawing dinosaurs but only rarely because I’m not very good at it, in my opinion",
         imageUrl: "/images/accessibility.jpg",
-        tags: ["WCAG", "ARIA", "Jest"],
+        tags: ["IbisPaint"],
       },
+      
     ],
   },
   {

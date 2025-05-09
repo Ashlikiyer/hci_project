@@ -20,6 +20,11 @@ const Navbar = () => {
               Portfolio
             </Link>
           </li>
+          <li>
+            <Link to="/contact" className="text-white hover:text-blue-500">
+              Contact
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>
