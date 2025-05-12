@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import {
   FaPaintBrush,
   FaCode,
-  FaInstagram,
   FaPenNib,
   FaLaptopCode,
   FaChartLine,
@@ -11,6 +10,9 @@ import {
   FaDatabase,
   FaVideo,
   FaDraft2Digital,
+  FaLanguage,
+  FaSketch,
+  FaDigitalTachograph,
 } from "react-icons/fa";
 import Particles from "../../Reactbits/Particles/Particles";
 import Navbar from "../Components/Navbar";
@@ -61,7 +63,7 @@ const About = () => {
       bgGradient: "bg-gradient-to-br from-gray-900 to-orange-900/20",
       description1:
         "My name is Adriane. I've worked as a graphic designer for 2 years. My working experience has helped me to develop my skills, creativity, and attention to detail. Practicing has also made me better in this field. I have learned that graphic designers create visual content to communicate messages. My clients have always been satisfied with the novelty of my work. Message now so I can make your project successful too.",
-      image: "public/assets/Adriane.png", 
+      image: "/assets/Adriane.png", 
       skills: [
         {
           icon: <FaPaintBrush size={40} />,
@@ -85,75 +87,73 @@ const About = () => {
       titleColor: "text-blue-400",
       bgGradient: "bg-gradient-to-br from-gray-900 to-blue-900/20",
       description1:
-        "Stuff about me: I have a deep appreciation for dinosaurs, cryptids, and monsters mostly because of their lore and designs, I also have a love for coffee (which I very much enjoy often), a sweet spot for caramel, and a passion for indie and horror related media whether it be stories or video game",
-      image: "/images/hans.jpg", // Replace with actual image path
+        "- Howdy, I'm Hans! I’m into drawing, editing videos, and diving into indie and video games. Some facts about me: I love coffee (probably too much), dinosaurs are awesome, and I’m a big fan of indie and video games such as Undertale, Five Nights at Freddy’s, Fallout. I speak pretty fluent English and enjoy mixing fun with creativity in whatever I do",
+      image: "assets/hanss.png", 
       skills: [
         {
-          icon: <FaPenNib size={40} />,
-          title: "UI Design",
+          icon: <FaVideo size={40} />,
+          title: "Video Editor",
           description: "Crafting intuitive interfaces.",
         },
         {
           icon: <FaPaintBrush size={40} />,
-          title: "UX Research",
-          description: "Understanding user needs.",
+          title: "Artist",
+          description: "Creating stunning visuals.",
         },
         {
-          icon: <FaLaptopCode size={40} />,
-          title: "Prototyping",
-          description: "Building interactive mockups.",
+          icon: <FaLanguage size={40} />,
+          title: "Fluent other language",
+          description: "I can speak english",
+        },
+      ],
+    },
+    {
+      name: "John Carlo Vinarao",
+      titleColor: "text-purple-400",
+      bgGradient: "bg-gradient-to-br from-gray-900 to-purple-900/20",
+      description1:
+        "Hello, my name is John Carlo Vinarao, and I have the privilege of playing games for a living, specializing in genres like FPS, Adventure, Survival, and Puzzle. In addition to my passion for gaming, I have a deep affection for raccoons and ferrets. I consider myself a really good swimmer, and while I don't draw frequently, I enjoy it when I'm bored or when there's a specific activity, assignment, or project that involves drawing.",
+      
+      skills: [
+        {
+          icon: <FaDraft2Digital size={40} />,
+          title: "Basic Drawing",
+          description: "Creating basic sketches.",
+        },
+        {
+          icon: <FaSketch size={40} />,
+          title: "Sketching",
+          description: "Creating detailed sketches.",
+        },
+        {
+          icon: <FaDigitalTachograph size={40} />,
+          title: "Technical Drafting (Manual and a little bit of Digital)",
+          description: "Creating technical drawings.",
         },
       ],
     },
     {
       name: "Angelo F. Gopez",
-      titleColor: "text-purple-400",
-      bgGradient: "bg-gradient-to-br from-gray-900 to-purple-900/20",
-      description1:
-        "I am type of person whose into all sorts of stuff as such my passion for Digital Art, And has a love for specific games that really sparks me that keeps my dopamine pumpin! Such as specific VN, Interactive story and gacha games such as wuthering waves as my comfort game, and oh! Other games like Elsword, etc.",
-      description2:
-        "I like watching animes that really fascinates me such as frieren, spy family, 7DS, etc. I have a liking on food that savory stuff and oh! Sweets! Maybe a touch of spice! I am also chronically online as well as an ambivert with social prob but have to get use to it. Not the best at communicating to people due to have social issues sometimes but do please bare with me!",
-      image: "/images/angelo.jpg", // Replace with actual image path
-      skills: [
-        {
-          icon: <FaCode size={40} />,
-          title: "Frontend Dev",
-          description: "Building sleek UIs.",
-        },
-        {
-          icon: <FaLaptopCode size={40} />,
-          title: "Backend Dev",
-          description: "Managing server logic.",
-        },
-        {
-          icon: <FaDatabase size={40} />,
-          title: "Databases",
-          description: "Optimizing data storage.",
-        },
-      ],
-    },
-    {
-      name: "Van Kerschanbel P. Angay",
       titleColor: "text-green-400",
       bgGradient: "bg-gradient-to-br from-gray-900 to-green-900/20",
       description1:
-        "Hi, I'm Vk, and I'm passionate about drawing anime characters in my free time. I also reads Manga, Manhua, Manhwa.",
-      image: "/images/van.jpg", // Replace with actual image path
+        "Introduction: Hi! I’m Angelo F. Gopez, a person who’s into all sorts of creative interests, especially digital art. I have a strong passion for drawing (even if I haven’t made much recently due to burnout and personal stuff), and I find joy and inspiration in games like visual novels, interactive stories, and gacha games—Wuthering Waves is my comfort game! I also play other games like Elsword. I enjoy watching anime that fascinates me, such as Frieren, Spy x Family, and The Seven Deadly Sins. When it comes to food, I love anything savory, sweet, and even with a little spice! I'm chronically online, an ambivert with social challenges, and not always the best at communicating. But I try my best, so please bear with me!",
+      image: "/assets/angelo.jpg", 
       skills: [
         {
-          icon: <FaInstagram size={40} />,
-          title: "SEO",
-          description: "Boosting search rankings.",
+          icon: <FaDigitalTachograph size={40} />,
+          title: "Digital Drawing",
+          description: "Creating digital illustrations.",
         },
         {
-          icon: <FaChartLine size={40} />,
-          title: "Analytics",
-          description: "Tracking performance.",
+          icon: <FaSketch size={40} />,
+          title: "Original Character Design",
+          description: "Creating unique characters.",
         },
         {
           icon: <FaPenNib size={40} />,
-          title: "Content Strategy",
-          description: "Crafting engaging content.",
+          title: "Basic Use of Ibis Paint & Clip Studio.",
+          description: "Creating digital illustrations.",
         },
       ],
     },

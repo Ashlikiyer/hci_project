@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaFacebook,  FaInstagram } from "react-icons/fa";
 import Navbar from "../Components/Navbar";
 
 const Contact = () => {
@@ -36,38 +36,30 @@ const Contact = () => {
     {
       name: "Adriane D. Bordamonte",
       title: "Graphic Designer",
-      image: "public/assets/Adriane.png",
+      image: "/assets/Adriane.png",
       socials: {
-        facebook: "https://facebook.com/adriane",
-        twitter: "https://twitter.com/adriane",
-        linkedin: "https://linkedin.com/in/adriane",
-        instagram: "https://instagram.com/adriane",
+        instagram: "https://www.instagram.com/mr_mc.hottie/",
       },
     },
     {
       name: "Hans Vincent Mathew, Osuna Escoto",
-      title: "UI/UX Designer",
-      image: "/images/hans.jpg",
+      title: "Graphic Designer",
+      image: "public/assets/hanss.png",
       socials: {
-        facebook: "https://facebook.com/hans",
-        twitter: "https://twitter.com/hans",
-        linkedin: "https://linkedin.com/in/hans",
-        instagram: "https://instagram.com/hans",
+        facebook: "https://www.facebook.com/hanna.lulu.1232",
+      },
+    },
+    {
+      name: "John Carlo Vinarao",
+      title: "Graphic Designer",
+      image: "/images/angelo.jpg",
+      socials: {
+        facebook: "https://www.facebook.com/SaddHouse/",
+    
       },
     },
     {
       name: "Angelo F. Gopez",
-      title: "Full-Stack Developer",
-      image: "/images/angelo.jpg",
-      socials: {
-        facebook: "https://facebook.com/angelo",
-        twitter: "https://twitter.com/angelo",
-        linkedin: "https://linkedin.com/in/angelo",
-        instagram: "https://instagram.com/angelo",
-      },
-    },
-    {
-      name: "Van Kerschanbel P. Angay",
       title: "SEO Specialist",
       image: "/images/van.jpg",
       socials: {
@@ -99,28 +91,7 @@ const Contact = () => {
         instagram: "https://instagram.com/olivia",
       },
     },
-    {
-      name: "Van Kerschanbel P. Angay",
-      title: "SEO Specialist",
-      image: "/images/van.jpg",
-      socials: {
-        facebook: "https://facebook.com/van",
-        twitter: "https://twitter.com/van",
-        linkedin: "https://linkedin.com/in/van",
-        instagram: "https://instagram.com/van",
-      },
-    },
-    {
-      name: "Van Kerschanbel P. Angay",
-      title: "SEO Specialist",
-      image: "/images/van.jpg",
-      socials: {
-        facebook: "https://facebook.com/van",
-        twitter: "https://twitter.com/van",
-        linkedin: "https://linkedin.com/in/van",
-        instagram: "https://instagram.com/van",
-      },
-    },
+    // Removed duplicate entries for Van Kerschanbel P. Angay
   ];
 
   return (
@@ -157,38 +128,28 @@ const Contact = () => {
 
               {/* Social Media Links */}
               <div className="flex space-x-4">
-                <a
-                  href={member.socials.facebook}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-blue-600 transition-colors duration-300"
-                >
-                  <FaFacebook size={24} />
-                </a>
-                <a
-                  href={member.socials.twitter}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-blue-400 transition-colors duration-300"
-                >
-                  <FaTwitter size={24} />
-                </a>
-                <a
-                  href={member.socials.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-blue-700 transition-colors duration-300"
-                >
-                  <FaLinkedin size={24} />
-                </a>
-                <a
-                  href={member.socials.instagram}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-pink-500 transition-colors duration-300"
-                >
-                  <FaInstagram size={24} />
-                </a>
+                {member.socials.facebook && (
+                  <a
+                    href={member.socials.facebook}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-blue-600 transition-colors duration-300"
+                  >
+                    <FaFacebook size={24} />
+                  </a>
+                )}
+             
+               
+                {member.socials.instagram && (
+                  <a
+                    href={member.socials.instagram}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-pink-500 transition-colors duration-300"
+                  >
+                    <FaInstagram size={24} />
+                  </a>
+                )}
               </div>
             </div>
           ))}

@@ -1,76 +1,85 @@
+
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Navbar from "../Components/Navbar";
 import ScrollVelocity from "../../Reactbits/ScrollVelocity/ScrollVelocity";
 import "../../Reactbits/ScrollVelocity/ScrollVelocity.css";
 
-// Team members data (unc\ged)
+// Team members data with unique project links
 const teamMembers = [
   {
     name: "Adriane Bordamonte",
-    role: "Full Stack Developer & Creative Technologist",
+    role: " Creative Technologist",
     projects: [
       {
-        title: "E-commerce Platform",
+        title: "Vector Art",
         description:
-          "A full-stack e-commerce solution with payment integration and inventory management.",
-        imageUrl: "/images/ecommerce.jpg",
-        tags: ["React", "Node.js", "MongoDB"],
+          "Vector Art Using Adobe Illustrator that I call it 'The Boss Fight'.",
+        imageUrl: "/assets/adri1.jpg",
+        tags: ["Adobe Illustrator"],
+        link: "https://www.behance.net/gallery/223025939/Illustrations?tracking_source=project_owner_other_projects",
       },
       {
-        title: "AI Content Generator",
+        title: "Sabrina",
         description:
-          "Generates creative content using OpenAI's API with user customization options.",
-        imageUrl: "/images/ai-content.jpg",
-        tags: ["Next.js", "OpenAI", "Tailwind"],
+          "Horror Animated 2.5D Film Poster using Adobe Photoshop and Blender.",
+        imageUrl: "/assets/adri2.jpg",
+        tags: ["Adobe Photoshop", "Blender"],
+        link: "https://www.behance.net/gallery/223025939/Illustrations?tracking_source=project_owner_other_projects",
       },
       {
-        title: "Health Tracker App",
+        title: "Photo Manipulation",
         description:
-          "Mobile application for tracking fitness metrics and nutrition with data visualization.",
-        imageUrl: "/images/health-tracker.jpg",
-        tags: ["React Native", "Firebase", "D3.js"],
+          "Photo Manipulation Using Adobe Photoshop for a Car Wrap Company.",
+        imageUrl: "/assets/adri3.jpg",
+        tags: ["Adobe Photoshop"],
+        link: "https://www.behance.net/gallery/223022673/Social-Media-Ads-and-Graphics",
       },
       {
-        title: "Blockchain Explorer",
-        description:
-          "Real-time blockchain transaction visualizer with wallet integration.",
-        imageUrl: "/images/blockchain.jpg",
-        tags: ["Web3.js", "Ethereum", "Solidity"],
+        title: "Supplement Media",
+        description: "Supplement Media Ad using Adobe Photoshop.",
+        imageUrl: "/assets/adri4.jpg",
+        tags: ["Adobe Photoshop"],
+        link: "https://www.behance.net/gallery/223022673/Social-Media-Ads-and-Graphics",
       },
     ],
   },
   {
     name: "Hans Vincent Mathew",
-    role: "Frontend Engineer & UI Specialist",
+    role: "UI Specialist",
     projects: [
       {
         title: "EMC Introduction Project",
         description:
           "This Artwork was used in my Intro to EMC class for a quick introduction about me.",
-        imageUrl: "/images/dashboard.jpg",
+        imageUrl: "/assets/hansproj2.png",
         tags: ["Firealpaca"],
+        link: "https://docs.google.com/document/d/1sFqM7lPZRB2pobgPuQLMRhzZhirezdIZ/edit?tab=t.0",
       },
       {
         title: "Roleplay",
         description:
           "This is a character sheet for another activity in Intro to EMC where our teacher assigned us to do a roleplay, the sheet is mostly just proof of concept on how the character is supposed to look like.",
-        imageUrl: "/images/design-system.jpg",
+        imageUrl: "/assets/hansproj3.png",
         tags: ["Firealpaca"],
+        link: "https://docs.google.com/document/d/1sFqM7lPZRB2pobgPuQLMRhzZhirezdIZ/edit?tab=t.0",
       },
       {
-        title: "Five nights at Freddy’s",
-        description: "This artwork is from one of those days where I randomly sketch, this is very inspired by the horror game “Five nights at Freddy’s”.",
-        imageUrl: "/images/animation.jpg",
+        title: "Five Nights at Freddy’s",
+        description:
+          "This artwork is from one of those days where I randomly sketch, this is very inspired by the horror game 'Five Nights at Freddy’s'.",
+        imageUrl: "/assets/hansproj4.png",
         tags: ["Firealpaca"],
+        link: "https://docs.google.com/document/d/1sFqM7lPZRB2pobgPuQLMRhzZhirezdIZ/edit?tab=t.0",
       },
       {
         title: "Dinosaurs",
-        description: "TAnother random sketch day, I sketched this out because I just like drawing dinosaurs but only rarely because I’m not very good at it, in my opinion",
-        imageUrl: "/images/accessibility.jpg",
+        description:
+          "Another random sketch day, I sketched this out because I just like drawing dinosaurs but only rarely because I’m not very good at it, in my opinion.",
+        imageUrl: "/assets/hansproj5.png",
         tags: ["IbisPaint"],
+        link: "https://example.com/hans/dinosaurs",
       },
-      
     ],
   },
   {
@@ -83,18 +92,21 @@ const teamMembers = [
           "Scalable microservices gateway with rate limiting and authentication.",
         imageUrl: "/images/api-gateway.jpg",
         tags: ["Node.js", "Kong", "JWT"],
+        link: "https://example.com/sarah/api-gateway",
       },
       {
         title: "Data Pipeline",
         description: "ETL pipeline for processing large datasets in real-time.",
         imageUrl: "/images/data-pipeline.jpg",
         tags: ["Python", "Kafka", "Spark"],
+        link: "https://example.com/sarah/data-pipeline",
       },
       {
         title: "Database Optimization",
         description: "Performance tuning for high-traffic SQL databases.",
         imageUrl: "/images/database.jpg",
         tags: ["PostgreSQL", "Redis", "Indexing"],
+        link: "https://example.com/sarah/database-optimization",
       },
       {
         title: "Serverless Functions",
@@ -102,19 +114,21 @@ const teamMembers = [
           "Cloud-native serverless architecture for event-driven apps.",
         imageUrl: "/images/serverless.jpg",
         tags: ["AWS Lambda", "Azure Functions", "Terraform"],
+        link: "https://example.com/sarah/serverless",
       },
     ],
   },
   {
-    name: "David Kim",
-    role: "Mobile Developer & AR Expert",
+    name: "Angelo F. Gopez",
+    role: "Graphic Designer & Illustrator",
     projects: [
       {
-        title: "AR Shopping App",
+        title: "Man Art",
         description:
-          "Augmented reality application for virtual product try-ons.",
-        imageUrl: "/images/ar-shopping.jpg",
-        tags: ["ARKit", "Swift", "SceneKit"],
+          "This Art example i use on CLIP STUDIO PAINT(the cracked version)",
+        imageUrl: "/assets/angelo1.png/",
+        tags: ["CLIP STUDIO PAINT"],
+        link: "https://docs.google.com/document/d/1CsMSuzZv9f1GsHbevOCLNDWZHGQ36MFE/edit?tab=t.0",
       },
       {
         title: "Cross-platform App",
@@ -122,6 +136,7 @@ const teamMembers = [
           "Unified codebase for iOS and Android with native performance.",
         imageUrl: "/images/cross-platform.jpg",
         tags: ["Flutter", "Dart", "Firebase"],
+        link: "https://docs.google.com/document/d/1CsMSuzZv9f1GsHbevOCLNDWZHGQ36MFE/edit?tab=t.0",
       },
       {
         title: "Fitness Tracker",
@@ -129,12 +144,14 @@ const teamMembers = [
           "Mobile app with health data integration and workout plans.",
         imageUrl: "/images/fitness-app.jpg",
         tags: ["React Native", "HealthKit", "MongoDB"],
+        link: "https://docs.google.com/document/d/1CsMSuzZv9f1GsHbevOCLNDWZHGQ36MFE/edit?tab=t.0",
       },
       {
         title: "Geolocation Game",
         description: "Location-based multiplayer game with real-time updates.",
         imageUrl: "/images/geolocation.jpg",
         tags: ["Unity", "Mapbox", "WebSockets"],
+        link: "https://docs.google.com/document/d/1CsMSuzZv9f1GsHbevOCLNDWZHGQ36MFE/edit?tab=t.0",
       },
     ],
   },
@@ -147,12 +164,14 @@ const teamMembers = [
         description: "Automated deployment pipeline with testing and rollback.",
         imageUrl: "/images/cicd.jpg",
         tags: ["GitHub Actions", "Docker", "Kubernetes"],
+        link: "https://example.com/emma/cicd",
       },
       {
         title: "Infrastructure as Code",
         description: "Cloud infrastructure management using declarative code.",
         imageUrl: "/images/iac.jpg",
         tags: ["Terraform", "AWS", "Ansible"],
+        link: "https://example.com/emma/iac",
       },
       {
         title: "Monitoring System",
@@ -160,6 +179,7 @@ const teamMembers = [
           "Comprehensive observability platform for distributed systems.",
         imageUrl: "/images/monitoring.jpg",
         tags: ["Prometheus", "Grafana", "ELK"],
+        link: "https://example.com/emma/monitoring",
       },
       {
         title: "Security Audit",
@@ -167,6 +187,7 @@ const teamMembers = [
           "Automated security scanning and vulnerability assessment.",
         imageUrl: "/images/security.jpg",
         tags: ["OWASP", "SonarQube", "Pen Testing"],
+        link: "https://example.com/emma/security-audit",
       },
     ],
   },
@@ -179,6 +200,7 @@ const teamMembers = [
         description: "Machine learning model for forecasting sales trends.",
         imageUrl: "/images/predictive.jpg",
         tags: ["Python", "Scikit-learn", "Pandas"],
+        link: "https://example.com/james/predictive-model",
       },
       {
         title: "Recommendation Engine",
@@ -186,6 +208,7 @@ const teamMembers = [
           "Personalized content recommendations using collaborative filtering.",
         imageUrl: "/images/recommendation.jpg",
         tags: ["TensorFlow", "Keras", "NLP"],
+        link: "https://example.com/james/recommendation-engine",
       },
       {
         title: "Computer Vision",
@@ -193,19 +216,21 @@ const teamMembers = [
           "Image recognition system for quality control in manufacturing.",
         imageUrl: "/images/vision.jpg",
         tags: ["OpenCV", "PyTorch", "CNN"],
+        link: "https://example.com/james/computer-vision",
       },
       {
         title: "Data Visualization",
         description: "Interactive dashboards for complex data analysis.",
         imageUrl: "/images/viz.jpg",
         tags: ["Plotly", "Dash", "Matplotlib"],
+        link: "https://example.com/james/data-visualization",
       },
     ],
   },
 ];
 
 const Portfolio = () => {
-  const scrollContainerRef = useRef<HTMLDivElement>(null);
+  const scrollContainerRef = useRef(null);
   const { scrollYProgress } = useScroll({
     target: scrollContainerRef,
     offset: ["start start", "end end"],
@@ -343,7 +368,9 @@ const Portfolio = () => {
                       </div>
 
                       <motion.a
-                        href="#"
+                        href={project.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg"
                         whileHover={{
                           backgroundColor: "#3b82f6",
