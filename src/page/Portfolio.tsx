@@ -46,7 +46,7 @@ const teamMembers = [
   },
   {
     name: "Hans Vincent Mathew",
-    role: "UI Specialist",
+    role: "Graphic Designer/Illustrator",
     projects: [
       {
         title: "EMC Introduction Project",
@@ -83,38 +83,38 @@ const teamMembers = [
     ],
   },
   {
-    name: "Sarah Johnson",
-    role: "Backend Developer & Database Architect",
+    name: "John Carlo Vinarao",
+    role: "Graphics Designer/digital artist",
     projects: [
       {
-        title: "API Gateway",
+        title: "Entrepreneur Business",
         description:
-          "Scalable microservices gateway with rate limiting and authentication.",
-        imageUrl: "/images/api-gateway.jpg",
-        tags: ["Node.js", "Kong", "JWT"],
-        link: "https://example.com/sarah/api-gateway",
+          "Some creations were created during my Senior High School days and were a total help",
+        imageUrl: "/assets/Menu Entrepreneur Business.jpg",
+        tags: ["Canva", "Digital",],
+        link: "https://drive.google.com/drive/folders/1tJ7cx3s0DJI_hKJGmD0RWKluiM77pDXH?usp=sharing",
       },
       {
-        title: "Data Pipeline",
-        description: "ETL pipeline for processing large datasets in real-time.",
-        imageUrl: "/images/data-pipeline.jpg",
-        tags: ["Python", "Kafka", "Spark"],
-        link: "https://example.com/sarah/data-pipeline",
+        title: "Skill Builders Club",
+        description: "This is also of one of my creations were created during my Senior High School days and were a total help",
+        imageUrl: "/assets/The Skill Builders Club Logo.jpg",
+        tags: ["Canva", "Digital"],
+        link: "https://drive.google.com/drive/folders/1tJ7cx3s0DJI_hKJGmD0RWKluiM77pDXH?usp=sharing",
       },
       {
-        title: "Database Optimization",
-        description: "Performance tuning for high-traffic SQL databases.",
-        imageUrl: "/images/database.jpg",
-        tags: ["PostgreSQL", "Redis", "Indexing"],
-        link: "https://example.com/sarah/database-optimization",
+        title: "Synthiam Gonfalon",
+        description: " I only created these works for school purposes and only one creation was done for commission purposes.",
+        imageUrl: "/assets/Synthiam Gonfalon.jpg",
+        tags: ["Canva", "Digital"],
+        link: "https://drive.google.com/drive/folders/1tJ7cx3s0DJI_hKJGmD0RWKluiM77pDXH?usp=sharing",
       },
       {
-        title: "Serverless Functions",
+        title: "Commissioned Brochure",
         description:
-          "Cloud-native serverless architecture for event-driven apps.",
-        imageUrl: "/images/serverless.jpg",
-        tags: ["AWS Lambda", "Azure Functions", "Terraform"],
-        link: "https://example.com/sarah/serverless",
+          " I only created these works for school purposes and only one creation was done for commission purposes.",
+        imageUrl: "/assets/Commissioned Brochure.jpg",
+        tags: ["Canva", "Digital"],
+        link: "https://drive.google.com/drive/folders/1tJ7cx3s0DJI_hKJGmD0RWKluiM77pDXH?usp=sharing",
       },
     ],
   },
@@ -123,41 +123,41 @@ const teamMembers = [
     role: "Graphic Designer & Illustrator",
     projects: [
       {
-        title: "Man Art",
+        title: "Man",
         description:
           "This Art example i use on CLIP STUDIO PAINT(the cracked version)",
-        imageUrl: "/assets/angelo1.png/",
+        imageUrl: "/assets/angelo1.png",
         tags: ["CLIP STUDIO PAINT"],
         link: "https://docs.google.com/document/d/1CsMSuzZv9f1GsHbevOCLNDWZHGQ36MFE/edit?tab=t.0",
       },
       {
-        title: "Cross-platform App",
+        title: "Improved Version",
         description:
-          "Unified codebase for iOS and Android with native performance.",
-        imageUrl: "/images/cross-platform.jpg",
-        tags: ["Flutter", "Dart", "Firebase"],
+          "This Art example i use on CLIP STUDIO PAINT(the cracked version).",
+        imageUrl: "/assets/angelo2.png",
+        tags: ["CLIP STUDIO PAINT"],
         link: "https://docs.google.com/document/d/1CsMSuzZv9f1GsHbevOCLNDWZHGQ36MFE/edit?tab=t.0",
       },
       {
-        title: "Fitness Tracker",
+        title: "3 Art",
         description:
-          "Mobile app with health data integration and workout plans.",
-        imageUrl: "/images/fitness-app.jpg",
-        tags: ["React Native", "HealthKit", "MongoDB"],
+          "This 3 Art examples i use on CLIP STUDIO PAINT(the cracked version)",
+        imageUrl: "/assets/angelo3.png",
+        tags: ["CLIP STUDIO PAINT"],
         link: "https://docs.google.com/document/d/1CsMSuzZv9f1GsHbevOCLNDWZHGQ36MFE/edit?tab=t.0",
       },
       {
-        title: "Geolocation Game",
-        description: "Location-based multiplayer game with real-time updates.",
-        imageUrl: "/images/geolocation.jpg",
-        tags: ["Unity", "Mapbox", "WebSockets"],
+        title: "Godfrey",
+        description: "This art example that i use is Ibis Paint.",
+        imageUrl: "/assets/angelo4.png",
+        tags: ["Ibis Paint"],
         link: "https://docs.google.com/document/d/1CsMSuzZv9f1GsHbevOCLNDWZHGQ36MFE/edit?tab=t.0",
       },
     ],
   },
   {
-    name: "Emma Rodriguez",
-    role: "DevOps Engineer & Cloud Specialist",
+    name: "Maria Julyanna Silvestre",
+    role: "Graphic Designer",
     projects: [
       {
         title: "CI/CD Pipeline",

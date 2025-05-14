@@ -113,7 +113,7 @@ const About = () => {
       bgGradient: "bg-gradient-to-br from-gray-900 to-purple-900/20",
       description1:
         "Hello, my name is John Carlo Vinarao, and I have the privilege of playing games for a living, specializing in genres like FPS, Adventure, Survival, and Puzzle. In addition to my passion for gaming, I have a deep affection for raccoons and ferrets. I consider myself a really good swimmer, and while I don't draw frequently, I enjoy it when I'm bored or when there's a specific activity, assignment, or project that involves drawing.",
-      
+      image: "/assets/John.png", 
       skills: [
         {
           icon: <FaDraft2Digital size={40} />,
@@ -138,7 +138,7 @@ const About = () => {
       bgGradient: "bg-gradient-to-br from-gray-900 to-green-900/20",
       description1:
         "Introduction: Hi! I’m Angelo F. Gopez, a person who’s into all sorts of creative interests, especially digital art. I have a strong passion for drawing (even if I haven’t made much recently due to burnout and personal stuff), and I find joy and inspiration in games like visual novels, interactive stories, and gacha games—Wuthering Waves is my comfort game! I also play other games like Elsword. I enjoy watching anime that fascinates me, such as Frieren, Spy x Family, and The Seven Deadly Sins. When it comes to food, I love anything savory, sweet, and even with a little spice! I'm chronically online, an ambivert with social challenges, and not always the best at communicating. But I try my best, so please bear with me!",
-      image: "/assets/angelo.jpg", 
+      image: "/assets/angelo.png", 
       skills: [
         {
           icon: <FaDigitalTachograph size={40} />,
@@ -158,13 +158,12 @@ const About = () => {
       ],
     },
     {
-      name: "Liam Patel",
-      titleColor: "text-yellow-400",
-      bgGradient: "bg-gradient-to-br from-gray-900 to-yellow-900/20",
+      name: "Maria Julyanna Silvestre",
+      titleColor: "text-pink-400",
+      bgGradient: "bg-gradient-to-br from-gray-900 to-pink-900/20",
       description1:
-        "Creative illustrator and animator. Brings ideas to life with stunning visuals and dynamic motion graphics.",
-      description2:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Hi everyone! My name is Maria Julyanna Silvestre, and I'm a huge fan of first-person shooter games like Valorant, Overwatch 2, Apex Legends, Call of Duty, and many more! I absolutely love animals and hope to become an animal advocate someday. I consider myself a good (but not great) singer. While I’m still new to digital art and not very skilled at it yet, I’m pretty good at traditional art. I also enjoy watching true crime documentaries, horror, thrillers, and—of course—romance.",
+    
       image: "/images/liam.jpg", // Replace with actual image path
       skills: [
         {
@@ -186,8 +185,8 @@ const About = () => {
     },
     {
       name: "Olivia Grant",
-      titleColor: "text-pink-400",
-      bgGradient: "bg-gradient-to-br from-gray-900 to-pink-900/20",
+      titleColor: "text-yellow-400",
+      bgGradient: "bg-gradient-to-br from-gray-900 to-yellow-900/20",
       description1:
         "Data analyst with expertise in turning numbers into actionable insights. Passionate about data-driven decision making.",
       description2:

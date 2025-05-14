@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { FaFacebook,  FaInstagram } from "react-icons/fa";
+import { FaFacebook,  FaInstagram, } from "react-icons/fa";
 import Navbar from "../Components/Navbar";
 
 const Contact = () => {
@@ -35,7 +35,7 @@ const Contact = () => {
   const team = [
     {
       name: "Adriane D. Bordamonte",
-      title: "Graphic Designer",
+      title: "Graphic Designer & Creative Technologist",
       image: "/assets/Adriane.png",
       socials: {
         instagram: "https://www.instagram.com/mr_mc.hottie/",
@@ -43,7 +43,7 @@ const Contact = () => {
     },
     {
       name: "Hans Vincent Mathew, Osuna Escoto",
-      title: "Graphic Designer",
+      title: "Graphic Designer & Illustrator",
       image: "public/assets/hanss.png",
       socials: {
         facebook: "https://www.facebook.com/hanna.lulu.1232",
@@ -51,8 +51,8 @@ const Contact = () => {
     },
     {
       name: "John Carlo Vinarao",
-      title: "Graphic Designer",
-      image: "/images/angelo.jpg",
+      title: "Graphics Designer & digital artist",
+      image: "/assets/John.png",
       socials: {
         facebook: "https://www.facebook.com/SaddHouse/",
     
@@ -60,24 +60,20 @@ const Contact = () => {
     },
     {
       name: "Angelo F. Gopez",
-      title: "SEO Specialist",
-      image: "/images/van.jpg",
+      title: "Graphic Designer & Illustrator",
+      image: "/assets/angelo.png",
       socials: {
-        facebook: "https://facebook.com/van",
-        twitter: "https://twitter.com/van",
-        linkedin: "https://linkedin.com/in/van",
-        instagram: "https://instagram.com/van",
+        facebook: "https://www.facebook.com/share/14zvwLc6P8/",
+        
       },
     },
     {
-      name: "Liam Patel",
-      title: "Illustrator & Animator",
+      name: "Maria Julyanna Silvestre",
+      title: "Illustrator & Graphic Designer",
       image: "/images/liam.jpg",
       socials: {
-        facebook: "https://facebook.com/liam",
-        twitter: "https://twitter.com/liam",
-        linkedin: "https://linkedin.com/in/liam",
-        instagram: "https://instagram.com/liam",
+        facebook: "https://www.facebook.com/share/18rfuQ69Eb/",
+        instagram: "https://www.instagram.com/ria._.anna?igsh=MXdrNXRmMWlld213bA==",
       },
     },
     {
