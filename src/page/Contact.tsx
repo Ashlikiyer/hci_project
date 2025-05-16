@@ -69,8 +69,8 @@ const Contact = () => {
     },
     {
       name: "Maria Julyanna Silvestre",
-      title: "Illustrator & Graphic Designer",
-      image: "/images/liam.jpg",
+      title: "Graphic Designer",
+      image: "/assets/julyanna.png",
       socials: {
         facebook: "https://www.facebook.com/share/18rfuQ69Eb/",
         instagram: "https://www.instagram.com/ria._.anna?igsh=MXdrNXRmMWlld213bA==",

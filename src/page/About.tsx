@@ -4,9 +4,7 @@ import {
   FaPaintBrush,
   FaCode,
   FaPenNib,
-  FaLaptopCode,
   FaChartLine,
-  FaPalette,
   FaDatabase,
   FaVideo,
   FaDraft2Digital,
@@ -164,22 +162,22 @@ const About = () => {
       description1:
         "Hi everyone! My name is Maria Julyanna Silvestre, and I'm a huge fan of first-person shooter games like Valorant, Overwatch 2, Apex Legends, Call of Duty, and many more! I absolutely love animals and hope to become an animal advocate someday. I consider myself a good (but not great) singer. While I’m still new to digital art and not very skilled at it yet, I’m pretty good at traditional art. I also enjoy watching true crime documentaries, horror, thrillers, and—of course—romance.",
     
-      image: "/images/liam.jpg", // Replace with actual image path
+      image: "/assets/julyanna.png", 
       skills: [
         {
-          icon: <FaPalette size={40} />,
-          title: "Illustration",
-          description: "Creating unique artwork.",
+          icon: <FaDraft2Digital size={40} />,
+          title: "Digital Art",
+          description: "Creating digital illustrations.",
         },
         {
           icon: <FaPaintBrush size={40} />,
-          title: "Animation",
-          description: "Designing motion graphics.",
+          title: "Traditional Art",
+          description: "Creating traditional illustrations.",
         },
         {
-          icon: <FaLaptopCode size={40} />,
-          title: "Digital Art",
-          description: "Mastering design tools.",
+          icon: <FaSketch size={40} />,
+          title: "Graphic Design",
+          description: "Creating stunning visuals.",
         },
       ],
     },
