@@ -191,42 +191,7 @@ const teamMembers = [
       },
     ],
   },
-  {
-    name: "James Wilson",
-    role: "Data Scientist & ML Engineer",
-    projects: [
-      {
-        title: "Predictive Model",
-        description: "Machine learning model for forecasting sales trends.",
-        imageUrl: "/images/predictive.jpg",
-        tags: ["Python", "Scikit-learn", "Pandas"],
-        link: "https://example.com/james/predictive-model",
-      },
-      {
-        title: "Recommendation Engine",
-        description:
-          "Personalized content recommendations using collaborative filtering.",
-        imageUrl: "/images/recommendation.jpg",
-        tags: ["TensorFlow", "Keras", "NLP"],
-        link: "https://example.com/james/recommendation-engine",
-      },
-      {
-        title: "Computer Vision",
-        description:
-          "Image recognition system for quality control in manufacturing.",
-        imageUrl: "/images/vision.jpg",
-        tags: ["OpenCV", "PyTorch", "CNN"],
-        link: "https://example.com/james/computer-vision",
-      },
-      {
-        title: "Data Visualization",
-        description: "Interactive dashboards for complex data analysis.",
-        imageUrl: "/images/viz.jpg",
-        tags: ["Plotly", "Dash", "Matplotlib"],
-        link: "https://example.com/james/data-visualization",
-      },
-    ],
-  },
+  
 ];
 
 const Portfolio = () => {

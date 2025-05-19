@@ -76,18 +76,7 @@ const Contact = () => {
         instagram: "https://www.instagram.com/ria._.anna?igsh=MXdrNXRmMWlld213bA==",
       },
     },
-    {
-      name: "Olivia Grant",
-      title: "Data Analyst",
-      image: "/images/olivia.jpg",
-      socials: {
-        facebook: "https://facebook.com/olivia",
-        twitter: "https://twitter.com/olivia",
-        linkedin: "https://linkedin.com/in/olivia",
-        instagram: "https://instagram.com/olivia",
-      },
-    },
-    // Removed duplicate entries for Van Kerschanbel P. Angay
+    
   ];
 
   return (

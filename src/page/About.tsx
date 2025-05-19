@@ -2,10 +2,7 @@ import BlurText from "../../Reactbits/BlurText/BlurText";
 import { useEffect, useState } from "react";
 import {
   FaPaintBrush,
-  FaCode,
   FaPenNib,
-  FaChartLine,
-  FaDatabase,
   FaVideo,
   FaDraft2Digital,
   FaLanguage,
@@ -181,33 +178,7 @@ const About = () => {
         },
       ],
     },
-    {
-      name: "Olivia Grant",
-      titleColor: "text-yellow-400",
-      bgGradient: "bg-gradient-to-br from-gray-900 to-yellow-900/20",
-      description1:
-        "Data analyst with expertise in turning numbers into actionable insights. Passionate about data-driven decision making.",
-      description2:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      image: "/images/olivia.jpg", // Replace with actual image path
-      skills: [
-        {
-          icon: <FaDatabase size={40} />,
-          title: "Data Analysis",
-          description: "Interpreting complex data.",
-        },
-        {
-          icon: <FaChartLine size={40} />,
-          title: "Visualization",
-          description: "Creating clear charts.",
-        },
-        {
-          icon: <FaCode size={40} />,
-          title: "Programming",
-          description: "Writing analytical scripts.",
-        },
-      ],
-    },
+    
   ];
 
   return (
@@ -278,12 +249,7 @@ const About = () => {
                   >
                     {member.name}
                   </h2>
-                  <p className="text-gray-300 text-lg">{member.description1}</p>
-                  {member.description2 && (
-                    <p className="text-gray-300 text-lg mt-4">
-                      {member.description2}
-                    </p>
-                  )}
+                  
                 </div>
               </div>
             </div>
