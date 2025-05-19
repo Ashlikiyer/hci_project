@@ -32,8 +32,6 @@ const About = () => {
         "skills-section-4": document.getElementById("skills-section-4"),
         "about-section-5": document.getElementById("about-section-5"),
         "skills-section-5": document.getElementById("skills-section-5"),
-        "about-section-6": document.getElementById("about-section-6"),
-        "skills-section-6": document.getElementById("skills-section-6"),
       };
 
       const newVisibility: { [key: string]: boolean } = {};
@@ -58,7 +56,7 @@ const About = () => {
       bgGradient: "bg-gradient-to-br from-gray-900 to-orange-900/20",
       description1:
         "My name is Adriane. I've worked as a graphic designer for 2 years. My working experience has helped me to develop my skills, creativity, and attention to detail. Practicing has also made me better in this field. I have learned that graphic designers create visual content to communicate messages. My clients have always been satisfied with the novelty of my work. Message now so I can make your project successful too.",
-      image: "/assets/Adriane.png", 
+      image: "/assets/Adriane.png",
       skills: [
         {
           icon: <FaPaintBrush size={40} />,
@@ -83,7 +81,7 @@ const About = () => {
       bgGradient: "bg-gradient-to-br from-gray-900 to-blue-900/20",
       description1:
         "- Howdy, I'm Hans! I’m into drawing, editing videos, and diving into indie and video games. Some facts about me: I love coffee (probably too much), dinosaurs are awesome, and I’m a big fan of indie and video games such as Undertale, Five Nights at Freddy’s, Fallout. I speak pretty fluent English and enjoy mixing fun with creativity in whatever I do",
-      image: "assets/hanss.png", 
+      image: "assets/hanss.png",
       skills: [
         {
           icon: <FaVideo size={40} />,
@@ -108,7 +106,7 @@ const About = () => {
       bgGradient: "bg-gradient-to-br from-gray-900 to-purple-900/20",
       description1:
         "Hello, my name is John Carlo Vinarao, and I have the privilege of playing games for a living, specializing in genres like FPS, Adventure, Survival, and Puzzle. In addition to my passion for gaming, I have a deep affection for raccoons and ferrets. I consider myself a really good swimmer, and while I don't draw frequently, I enjoy it when I'm bored or when there's a specific activity, assignment, or project that involves drawing.",
-      image: "/assets/John.png", 
+      image: "/assets/John.png",
       skills: [
         {
           icon: <FaDraft2Digital size={40} />,
@@ -132,8 +130,8 @@ const About = () => {
       titleColor: "text-green-400",
       bgGradient: "bg-gradient-to-br from-gray-900 to-green-900/20",
       description1:
-        "Introduction: Hi! I’m Angelo F. Gopez, a person who’s into all sorts of creative interests, especially digital art. I have a strong passion for drawing (even if I haven’t made much recently due to burnout and personal stuff), and I find joy and inspiration in games like visual novels, interactive stories, and gacha games—Wuthering Waves is my comfort game! I also play other games like Elsword. I enjoy watching anime that fascinates me, such as Frieren, Spy x Family, and The Seven Deadly Sins. When it comes to food, I love anything savory, sweet, and even with a little spice! I'm chronically online, an ambivert with social challenges, and not always the best at communicating. But I try my best, so please bear with me!",
-      image: "/assets/angelo.png", 
+        "Hi! I’m Angelo F. Gopez, a person who’s into all sorts of creative interests, especially digital art. I have a strong passion for drawing (even if I haven’t made much recently due to burnout and personal stuff), and I find joy and inspiration in games like visual novels, interactive stories, and gacha games—Wuthering Waves is my comfort game! I also play other games like Elsword. I enjoy watching anime that fascinates me, such as Frieren, Spy x Family, and The Seven Deadly Sins. When it comes to food, I love anything savory, sweet, and even with a little spice! I'm chronically online, an ambivert with social challenges, and not always the best at communicating. But I try my best, so please bear with me!",
+      image: "/assets/angelo.png",
       skills: [
         {
           icon: <FaDigitalTachograph size={40} />,
@@ -158,8 +156,7 @@ const About = () => {
       bgGradient: "bg-gradient-to-br from-gray-900 to-pink-900/20",
       description1:
         "Hi everyone! My name is Maria Julyanna Silvestre, and I'm a huge fan of first-person shooter games like Valorant, Overwatch 2, Apex Legends, Call of Duty, and many more! I absolutely love animals and hope to become an animal advocate someday. I consider myself a good (but not great) singer. While I’m still new to digital art and not very skilled at it yet, I’m pretty good at traditional art. I also enjoy watching true crime documentaries, horror, thrillers, and—of course—romance.",
-    
-      image: "/assets/julyanna.png", 
+      image: "/assets/julyanna.png",
       skills: [
         {
           icon: <FaDraft2Digital size={40} />,
@@ -178,7 +175,6 @@ const About = () => {
         },
       ],
     },
-    
   ];
 
   return (
@@ -249,7 +245,7 @@ const About = () => {
                   >
                     {member.name}
                   </h2>
-                  
+                  <p className="text-gray-300 text-lg">{member.description1}</p>
                 </div>
               </div>
             </div>
